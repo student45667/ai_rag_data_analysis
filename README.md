@@ -1,5 +1,7 @@
 # RAG Wafer Test Data Analysis Assistant
 
+
+
 Local, offline AI assistant for semiconductor wafer test data analysis.
 
 Wafer test data is IP. Yield numbers, parametric distributions, bin maps, and failure signatures are proprietary — they should never leave the building. This system runs entirely on your own hardware. No cloud API. No subscription. No data transmitted. The model loads from a local GGUF file, the vector database lives on your disk, and the browser UI talks only to `localhost`.
@@ -7,6 +9,38 @@ Wafer test data is IP. Yield numbers, parametric distributions, bin maps, and fa
 You describe what you want in plain English. The system retrieves relevant context from your ingested knowledge base — analysis guides, STDF references, JMP documentation, your own scripts — and returns a working answer grounded in that material. For code requests, you get a flat, readable Python or JSL script you can run immediately. For analysis questions, you get a direct answer with the metric explained and the reasoning shown. For visualization requests, you get a script that saves to file and displays — not a description of one.
 
 The assistant covers the full analysis workflow: loading ATE exports, calculating yield and Cpk, generating wafer bin maps, flagging spatial outliers, building parametric correlation matrices, and producing JMP scripts for distribution reports and control charts. What takes an engineer two to four hours of repetitive scripting takes the system under a minute.
+
+## Local, Offline AI Assistant for Semiconductor Wafer Test Data Analysis
+
+Wafer test data is IP. Yield numbers, parametric distributions, bin maps, and failure signatures are proprietary — they should never leave the building. This system runs entirely on your own hardware. No cloud API. No subscription. No data transmitted. The model loads from a local GGUF file, the vector database lives on your disk, and the browser UI talks only to `localhost`.
+
+You describe what you want in plain English. The system retrieves relevant context from your ingested knowledge base — analysis guides, STDF references, JMP documentation, your own scripts — and returns a working answer grounded in that material. For code requests, you get a flat, readable Python or JSL script you can run immediately. For analysis questions, you get a direct answer with the metric explained and the reasoning shown. For visualization requests, you get a script that saves to file and displays — not a description of one.
+
+### Knowledge Base: Wafer Production Data Analysis
+
+The system is powered by a curated knowledge base covering the complete wafer test and yield analysis workflow:
+
+**Core Topics:**
+- **STDF parsing & manipulation** — Understanding binary STDF structure, extracting test records, converting to CSV/JSON
+- **Statistical analysis** — Yield calculation, Cpk/Ppk, parametric distributions, outlier detection, spatial correlation
+- **Control charting** — SPC principles, Xbar-R charts, trend analysis, alarm thresholds, process monitoring
+- **Wafer bin mapping** — Spatial visualization of defects, clustering analysis, hot-spot identification
+- **JMP scripting** — Automated report generation, distribution analysis, multi-factor investigation
+- **Common workflows & mistakes** — Best practices, pitfalls, and solutions drawn from real production scenarios
+
+**Knowledge Base Contents:**
+- Reference documents (STDF specs, JMP user guides, statistical foundations)
+- Working Python scripts (STDF readers, bin map generators, yield calculators)
+- JSL templates for JMP automation and batch processing
+- Detailed walkthroughs of analysis patterns and troubleshooting guides
+- Real-world examples and data transformations
+
+When you ask a question, the system grounds its answer in this material—never hallucinating, always showing its sources.
+
+### Workflow
+
+The assistant covers the full analysis pipeline: loading ATE exports, calculating yield and Cpk, generating wafer bin maps, flagging spatial outliers, building parametric correlation matrices, and producing JMP scripts for distribution reports and control charts. What takes an engineer two to four hours of repetitive scripting takes the system under a minute.
+
 
 
 ![Screenshot 1](images/Screenshot%202026-05-27%20at%2016.57.44.png)
