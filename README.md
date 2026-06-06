@@ -8,6 +8,23 @@ You describe what you want in plain English. The system retrieves relevant conte
 
 The assistant covers the full analysis workflow: loading ATE exports, calculating yield and Cpk, generating wafer bin maps, flagging spatial outliers, building parametric correlation matrices, and producing JMP scripts for distribution reports and control charts. What takes an engineer two to four hours of repetitive scripting takes the system under a minute.
 
+
+![Screenshot 1](images/Screenshot%202026-05-27%20at%2016.57.44.png)
+![Screenshot 2](images/Screenshot%202026-05-27%20at%2017.01.00.png)
+![Screenshot 3](images/Screenshot%202026-05-27%20at%2017.19.25.png)
+![Screenshot 4](images/Screenshot%202026-05-28%20at%2000.33.02.png)
+![Screenshot 5](images/Screenshot%202026-05-28%20at%2000.34.11.png)
+![Screenshot 6](images/Screenshot%202026-05-28%20at%2000.34.57.png)
+![Screenshot 7](images/Screenshot%202026-05-28%20at%2000.35.06.png)
+![Screenshot 8](images/Screenshot%202026-05-28%20at%2000.35.14.png)
+![Screenshot 9](images/Screenshot%202026-05-28%20at%2000.35.22.png)
+![Screenshot 10](images/Screenshot%202026-05-28%20at%2000.37.40.png)
+![Screenshot 11](images/Screenshot%202026-05-28%20at%2000.38.31.png)
+![Screenshot 12](images/Screenshot%202026-05-28%20at%2000.38.48.png)
+![Screenshot 13](images/Screenshot%202026-05-28%20at%2000.39.32.png)
+![Screenshot 14](images/Screenshot%202026-05-28%20at%2001.25.15.png)
+![Screenshot 15](images/Screenshot%202026-05-28%20at%2001.29.34.png)
+
 ---
 
 ## What It Does
