@@ -1,6 +1,6 @@
 # RAG Wafer Test Data Analysis Assistant
 
-
+![Screenshot 0](images/head_image.png)
 
 Local, offline AI assistant for semiconductor wafer test data analysis.
 
